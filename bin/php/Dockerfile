@@ -1,1 +1,1 @@
-FROM dancarvalhodev/php:8.0-alpine
+FROM dancarvalhodev/php:8.1
