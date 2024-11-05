@@ -9,8 +9,6 @@ services:
             - ./www:/usr/share/nginx/html
             - ./config/nginx/default.conf:/etc/nginx/conf.d/default.conf
         restart: always
-        # extra_hosts:
-        #     - host.docker.internal:host-gateway
     php:
         build:
             context: bin/php
